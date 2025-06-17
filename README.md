@@ -126,13 +126,20 @@ Visit this [wiki page](https://github.com/mudassir0909/jsonresume-theme-elegant/
 
 [https://github.com/Lehmanator/jsonresume-theme-elegant/labels/enhancement](https://github.com/Lehmanator/jsonresume-theme-elegant/labels/enhancement)
 
+- [ ] Test compatibility with JSONResume schema.
+- [ ] Fix profile picture not loading.
+
+- [ ] Replace links to external styles, scripts, assets, etc. with local ones.
+  - [ ] Bootstrap.css
+  - [ ] Google Fonts (Lato)
+
 - [ ] Add icons for additional social platforms.
   - [x] Codeberg / Forgejo / Gitea
   - [x] Fediverse / ActivityPub servers
   - [x] Mastodon
   - [x] Matrix
   - [x] Signal
-  - [x] Sourcehut
+  - [ ] Sourcehut
 
 - [ ] GitHub Actions
   - [ ] Build, lint, & test
@@ -142,4 +149,17 @@ Visit this [wiki page](https://github.com/mudassir0909/jsonresume-theme-elegant/
   - [ ] Build, lint, & test
   - [ ] Deploy to Codeberg Pages
 
-- [ ] Test compatibility with JSONResume schema.
+- [ ] Fix broken, missing, & incorrect icons.
+  - [ ] Test whether this is just the fonts being pointed to incorrectly. Might be just using my system's NerdFont when it can't find the referenced file. `fonts/icomoon.{eot,ttf,woff,svg}` not added to derivation output.
+  - [ ] Fix missing: `skills`
+  - [ ] Fix incorrect: `basics.location`
+  - [ ] Fix incorrect: `basics.summary` / about
+  - [ ] Fix incorrect: `basics.email`
+  - [ ] Fix incorrect: `work` / experience
+  - [ ] Fix incorrect: experience duration
+  - [ ] Improve: `languages`
+  - [ ] Improve: `references`
+  - [ ] Add: `education.dates` / `education.startDate` / `education.endDate`
+  - [ ] Add:  `projects.dates` /  `projects.startDate` /  `projects.endDate`
+  - [ ] Add:      `work.dates` /      `work.startDate` /      `work.endDate`
+  
