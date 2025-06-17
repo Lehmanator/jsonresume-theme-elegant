@@ -38,13 +38,18 @@ By default, only 5 profiles are shown & others are revealed on demand.
 * `behance`
 * `bitbucket`
 * `blogger`
+* `codeberg`
 * `codepen`
 * `dribbble`
 * `dribble`
 * `exercism`
 * `facebook`
+* `fediverse` (for generic ActivityPub accounts)
 * `flickr`
+* `forgejo`
 * `foursquare`
+* `git`  (for generic git forge accounts)
+* `gitea`
 * `github`
 * `gitlab`
 * `googleplus`
@@ -53,11 +58,14 @@ By default, only 5 profiles are shown & others are revealed on demand.
 * `instagram`
 * `lastfm`
 * `linkedin`
+* `mastodon`
+* `matrix`
 * `medium`
 * `meetup`
 * `pinterest`
 * `reddit`
 * `skype`
+* `signal`
 * `soundcloud`
 * `spotify`
 * `stackexchange`
@@ -67,6 +75,7 @@ By default, only 5 profiles are shown & others are revealed on demand.
 * `twitter`
 * `vimeo`
 * `youtube`
+
 
 ### Credits
 
@@ -118,12 +127,12 @@ Visit this [wiki page](https://github.com/mudassir0909/jsonresume-theme-elegant/
 [https://github.com/Lehmanator/jsonresume-theme-elegant/labels/enhancement](https://github.com/Lehmanator/jsonresume-theme-elegant/labels/enhancement)
 
 - [ ] Add icons for additional social platforms.
-  - [ ] Codeberg / Forgejo / Gitea
-  - [ ] Fediverse / ActivityPub servers
-  - [ ] Mastodon
-  - [ ] Matrix
-  - [ ] Signal
-  - [ ] Sourcehut
+  - [x] Codeberg / Forgejo / Gitea
+  - [x] Fediverse / ActivityPub servers
+  - [x] Mastodon
+  - [x] Matrix
+  - [x] Signal
+  - [x] Sourcehut
 
 - [ ] GitHub Actions
   - [ ] Build, lint, & test
